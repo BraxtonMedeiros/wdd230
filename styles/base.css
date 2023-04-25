@@ -1,8 +1,121 @@
 /* html/element selectors */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border: 10px solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #8caae2;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 
+body {
+	font-size: 16px;
+	font-family: "Sansita", sans-serif;
+}
+
+/* mobile **************************/
+header {
+	background-color: #3368cc;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+header,
+main {
+	max-width: 767px;
+	margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+nav {
+	background-color: #cc9733;
+	margin: 0 auto;
+	max-width: 800px;
+}
+nav ul {
+	list-style-type: none;
+}
+nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: black;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  ul {
+    list-style: none; 
+  }
 
 
 /* class selectors */
+.lastModified {
+    text-align: right;
+}
+.card {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  padding-bottom: 10px;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  background-color: #3368cc;
+  color: black;
+  padding: 8px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  font-family: 'Bruno Ace SC', cursive;
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+.card-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.subtitle {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'Bruno Ace SC', cursive;
+}
 
 
 

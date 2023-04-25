@@ -5,17 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Braxton Medeiros - WDD 230 - Web Frontend Development</title>
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="/styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        
+        <h1 id="name">Braxton Medeiros</h1>
+        <img src="/images/picofme.jpeg" alt="picture of me">
     </header>
+    <nav class="navlist">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Site Plan</a></li>
+            <li><a href="#">Survey</a></li>
+        </ul>
+    </nav>
     <main>
-        
+        <section class="subtitle">
+            <h2>WDD230: Web Frontend Development</h2>
+        </section>
+        <section class="card">
+            <h3 class="card-title">Learning Activities</h3>
+            <ul>
+            
+                <li><a href="">Lesson One</a></li>
+                <li><a href="">Lesson Two</a></li>
+                <li><a href="">Lesson Three</a></li>
+                <li><a href="">Lesson Four</a></li>
+                <li><a href="">Lesson Five</a></li>
+                <li><a href="">Lesson Six</a></li>
+                
+            </ul>
+        </section>
+        <section class="card">
+            <h3 class="card-title">Information</h3>
+            <p>Rexburg, Idaho</p>
+            <p>58 degrees Mostly Sunny</p>
+            <p>Number of page visits: 18</p>
+            <!-- number of visits to page, weather, other ideas? -->
+        </section>
     </main>
-    <footer></footer>
+    <footer class="updateInfo">
+        <p>&copy;<span id="copyright-year"></span> | Braxton Medeiros | Rexburg, ID</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+      </footer>
     <script src="scripts/getDates.js"></script>
 </body>
 </html>

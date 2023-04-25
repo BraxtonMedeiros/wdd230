@@ -1,5 +1,79 @@
 /* html selectors */
+/* Larger Views ******************************/
+@media (min-width: 640px) {
+	nav ul {
+		display: flex;
+        justify-content: space-around;
+	}
+	nav ul li {
+		flex: 1 1 100%;
+	}
 
+    header,
+    main {
+        text-align: center;
+        max-width: 100%;
+        margin: auto;
+    }
+    nav {
+        background-color: #cc9733;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .lastModified {
+        text-align: right;
+    }
+    
+    header {
+        background-color: #3368cc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        font-family: 'Bruno Ace SC', cursive;
+    }
+
+    .card {
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin-bottom: 10px;
+      border: 1px solid black;
+      padding-bottom: 10px;
+    }
+    
+    .card-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 16px;
+      background-color: #3368cc;
+      color: black;
+      padding: 8px;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      font-family: 'Bruno Ace SC', cursive;
+    }
+    
+    .card-text {
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 24px;
+    }
+    
+    .card-image {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 16px;
+    }
+    
+    .subtitle {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-family: 'Bruno Ace SC', cursive;
+    }
+    
+}
 
 
 /* class selectors */
