@@ -4,7 +4,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 20%;
-    border: 10px solid black;
+    border: 10px solid #cc9733;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #8caae2;
 }
@@ -27,18 +27,19 @@ header {
 	justify-content: center;
 	padding: 20px;
 	border: 1px solid rgba(0, 0, 0, 0.1);
-    font-family: 'Bruno Ace SC', cursive;
+  font-family: 'Bruno Ace SC', cursive;
 }
 
 header,
 main {
 	max-width: 767px;
 	margin: 0 auto;
-    text-align: center;
+  text-align: center;
 }
 
 h1 {
 	font-size: 2rem;
+  color: white;
 }
 
 nav {
@@ -58,7 +59,8 @@ nav a {
 }
 
 nav a:hover {
-	background-color: black;
+	color: #3368cc;
+  background-color: black;
 }
 
 footer {
@@ -66,9 +68,13 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #cc9733;
+    padding: 2%;
   }
   ul {
-    list-style: none; 
+    list-style: none;
+    text-align: left;
+    margin-left: 50px;
   }
 
 
@@ -91,7 +97,7 @@ footer {
   font-weight: bold;
   margin-bottom: 16px;
   background-color: #3368cc;
-  color: black;
+  color: white;
   padding: 8px;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
