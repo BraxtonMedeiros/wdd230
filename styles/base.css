@@ -52,7 +52,7 @@ nav ul {
 }
 nav a {
 	display: block;
-	color: #fff;
+	color: black;
 	text-align: center;
 	padding: 1rem;
 	text-decoration: none;
@@ -123,8 +123,4 @@ footer {
     font-family: 'Bruno Ace SC', cursive;
 }
 
-
-
 /* id selectors */
-
-
