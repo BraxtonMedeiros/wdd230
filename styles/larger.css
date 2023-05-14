@@ -91,5 +91,10 @@
     .stuff {
       margin: 1rem auto;
     }
+
+    .navigation {
+      flex-direction: row;
+      background-color: #cc9733;
+    }
     
 }
