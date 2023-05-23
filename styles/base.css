@@ -27,14 +27,21 @@ header {
 	justify-content: center;
 	padding: 20px;
 	border: 1px solid rgba(0, 0, 0, 0.1);
-  font-family: 'Bruno Ace SC', cursive;
+  	font-family: 'Bruno Ace SC', cursive;
 }
 
 header,
 main {
 	max-width: 767px;
 	margin: 0 auto;
-  text-align: center;
+  	text-align: center;
+}
+
+iframe {
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 25px;
 }
 
 h1 {
@@ -187,8 +194,6 @@ footer {
 	
 } 
 
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-
 main {
 	max-width: 670px;
 	margin: 0 auto;
@@ -210,6 +215,7 @@ main {
 	position: absolute;
 	top: 30px;
 	left: 30px;
+	right: 30px;
 	background: radial-gradient(#fff, #4D5B97);
 	border: 1px solid rgba(0,0,0,.75);
 	padding: 1.5rem;
@@ -223,7 +229,8 @@ main {
 	padding: .25rem;
 	font-weight: 700;
 	font-size: 2rem;
-	font-family:"Great Vibes", serif;
+	font-family: 'Bruno Ace SC', cursive;
+	text-align: center;
 }
 
 

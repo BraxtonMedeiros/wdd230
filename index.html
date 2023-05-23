@@ -19,7 +19,7 @@
 <body>
     <header>
         <h1 id="name">Braxton Medeiros</h1>
-        <img src="./images/picofme.jpeg" alt="picture of me" id="picofme">
+        <img src="./images/picofme.webp" alt="picture of me" loading="lazy" id="picofme">
         <button id="menu"></button>
     </header>
     <nav class="navList">
@@ -34,7 +34,7 @@
         <picture>
           <source srcset="./lesson3/images/hero-small.webp" media="(max-width: 500px)">
           <source srcset="./lesson3/images/hero-medium.webp" media="(max-width: 1000px)">
-          <img src="./lesson3/images/hero-large.webp" alt="table setting" width="1500" height="750">
+          <img src="./lesson3/images/hero-large.webp" alt="table setting" loading="lazy" width="1500" height="750">
         </picture>
         <div class="herolabel">
 			<p>Laie Hawaii Temple</p>
@@ -51,10 +51,10 @@
                 
                     <li><p>Lesson 1: <a href="./lesson1/holygrail.html">Holy Grail</a> | <a href="https://codepen.io/BraxtonMedeiros/pen/MWPGmWx">Applied JavaScript</a></p></li>
                     <li><p>Lesson 2: <a href="./lesson2/design.html" target="_blank">Design Principles</a> | <a href="https://codepen.io/BraxtonMedeiros/pen/XWxEVGr" target="_blank">Hamburger Menu</a> | <a href="./lesson2/bom.html" target="_blank">BOM Activity</a></p></li>
-                    <li><p>Lesson 3: <a href="./lesson3/images/landscape.webp" target="_blank">WebP Image File Format</a> | <a href="./lesson3/responsive-images.html" target="_blank">Responsive Images - Srcset</a></p></li>
-                    <li><p>Lesson 4: <a href="">Lesson Four</a></p></li>
-                    <li><p>Lesson 5: <a href="">Lesson Five</a></p></li>
-                    <li><p>Lesson 6: <a href="">Lesson Six</a></p></li>
+                    <li><p>Lesson 3: <a href="./lesson3/images/landscape.webp" target="_blank">WebP Image File Format</a> | <a href="./lesson3/responsive-images.html" target="_blank">Responsive Images - Srcset</a> | <a href="./lesson3/lazyload.html" target="blank">Lazy Loading</a></p></li>
+                    <li><p>Lesson 4: <a href="">#</a></p></li>
+                    <li><p>Lesson 5: <a href="">#</a></p></li>
+                    <li><p>Lesson 6: <a href="">#</a></p></li>
 
                 </ul>
             </section>
@@ -64,11 +64,12 @@
                 <h3 class="card-title">Information</h3>
                 <p>Rexburg, Idaho</p>
                 <p>58 degrees Mostly Sunny</p>
-                <p>Number of page visits: 18</p>
+                <p><span class="label">Visit Count: </span><span class="visits"></span></p>
                 <!-- number of visits to page, weather, other ideas? -->
             </section>
         </section>
     </main>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29659.751500946724!2d-157.95886469968383!3d21.68450655743169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c00501f842df305%3A0xe318fc0ed1d702e8!2sKahuku%2C%20HI%2096731!5e0!3m2!1sen!2sus!4v1684854712612!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <footer class="updateInfo">
         <p>&copy;<span id="copyright-year"></span> | Braxton Medeiros | Rexburg, ID</p>
         <p>Last Modified: <span id="lastModified"></span></p>
