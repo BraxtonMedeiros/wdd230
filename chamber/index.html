@@ -21,19 +21,57 @@
             <li><a href="#">Survey</a></li>
         </ul>
     </header>
-    <div id="hero">
-        <div id="hero-box">
-            <img id="hero-img" src="images/Hero-Rexburg-img.png" alt="City of Rexburg">
-        </div>
-        <section id="hero-msg">
-            <h1 class="home-title"></h4>
-            <div class="button-box">
-                <a class="book" href="contact.html">Join Now</a>
-            </div>
-        </section>
-    </div>
+    <div class="hero">
+        <picture>
+          <source srcset="images/hero-small-img.webp" media="(max-width: 500px)">
+          <source srcset="images/hero-medium-img.webp" media="(max-width: 1000px)">
+          <img src="images/hero-large-img.webp" alt="table setting" width="1500" height="750">
+        </picture>
+        <div class="herolabel">
+			<button><p>Join the Chamber!</p></button>
+		</div>
+      </div>
+      
     <main>
-        
+        <!-- Current Events -->
+    <section class="events">
+        <h2>Current Events</h2>
+        <ul>
+          <li>Event 1</li>
+          <li>Event 2</li>
+          <li>Event 3</li>
+        </ul>
+      </section>
+  
+      <!-- Weather Card -->
+      <section class="weather">
+        <h2>Weather</h2>
+        <div class="weather-card">
+          <p>Current weather conditions:</p>
+          <p>Temperature: XX°C</p>
+          <p>Humidity: XX%</p>
+        </div>
+      </section>
+  
+      <!-- Company Spotlights -->
+      <section class="spotlights">
+        <h2>Company Spotlights</h2>
+        <div class="spotlight">
+          <img src="company1-logo.jpg" alt="Company 1">
+          <p>Company 1 is a leading provider of...</p>
+          <a href="company1.html">Learn More</a>
+        </div>
+        <div class="spotlight">
+          <img src="company2-logo.jpg" alt="Company 2">
+          <p>Company 2 offers innovative solutions for...</p>
+          <a href="company2.html">Learn More</a>
+        </div>
+        <div class="spotlight">
+          <img src="company3-logo.jpg" alt="Company 3">
+          <p>Company 3 specializes in...</p>
+          <a href="company3.html">Learn More</a>
+        </div>
+      </section>
     </main>
     <footer>
 
