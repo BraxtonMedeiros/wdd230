@@ -7,19 +7,23 @@
     <title>Rexburg Chamber of Commerce</title>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" href="./images/Rexburg.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
     <meta property="og:title" content="Braxton Medeiros">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://www.travellens.co/content/images/size/w2000/format/webp/2021/09/Rexburg-ID.jpeg">
 </head>
 <body>
     <header>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="../lesson1/chamber-site-plan.html">Site Plan</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Survey</a></li>
-        </ul>
+        <h1>Rexburg Chamber of Commerce</h1>
+        <button id="menu"></button>
+	      <ul class="navigation">
+	      	<li><a href="#" title="Home">Home</a></li>
+	      	<li><a href="../lesson1/chamber-site-plan.html" title="Site-Plan">Site Plan</a></li>
+	      	<li><a href="#" title="Contact">Contact Us</a></li>
+          <li><a href="#" title="survey">Survey</a></li>
+	      </ul>
     </header>
     <div class="hero">
         <picture>
@@ -35,18 +39,19 @@
     <main>
         <!-- Current Events -->
     <section class="events">
-        <h2>Current Events</h2>
-        <ul>
-          <li>Event 1</li>
-          <li>Event 2</li>
-          <li>Event 3</li>
-        </ul>
+        <div class="weather-card">
+          <h2>Events</h2>
+          <ul>
+            <li>BYU-I Football</li>
+          </ul>
+        </div>  
+          
       </section>
   
       <!-- Weather Card -->
       <section class="weather">
-        <h2>Weather</h2>
         <div class="weather-card">
+          <h2>Weather</h2>
           <p>Current weather conditions:</p>
           <p>Temperature: XX°C</p>
           <p>Humidity: XX%</p>
@@ -73,8 +78,45 @@
         </div>
       </section>
     </main>
-    <footer>
-
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Community</h4>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Services</a></li>
+              <li><a href="#">Become a member</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Get Help</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Help</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Information</h4>
+            <ul>
+              <li><p>&copy;<span id="copyright-year"></span></p></li>
+              <li><a href="#">Braxton Medeiros</a></li>
+              <li><a href="#">WDD 230</a></li>
+              <li><p>Last Modified: <span id="lastModified"></span></p></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Follow Us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburger.js"></script>
 </body>
 </html>
