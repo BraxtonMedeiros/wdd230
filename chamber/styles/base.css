@@ -4,6 +4,11 @@ main {
 	margin: 0 auto;
 }
 
+main img {
+    max-width: 100%;
+    height: auto;
+  }
+
 .hero {
 	position: relative;
 	height: 300px;
@@ -343,4 +348,40 @@ body {
   }
   /* End of footer styles */
 
-  
+  /* Styles for discover page */
+
+  .subtitle {
+	background-color: #73C2BE;
+	border-radius: 25px;
+	text-align: center;
+  }
+
+  .farmer {
+    margin-left: 30px;
+	margin-right: 30px;
+  }
+
+  .golf {
+    margin-left: 30px;
+	margin-right: 30px;
+  }
+
+  .parade {
+    margin-left: 30px;
+	margin-right: 30px;
+  }
+
+  .celebration {
+    margin-left: 30px;
+	margin-right: 30px;
+  }
+
+  .football {
+    margin-left: 30px;
+	margin-right: 30px;
+  }
+
+  .fair {
+    margin-left: 30px;
+	margin-right: 30px;
+  }
