@@ -15,4 +15,38 @@
 	.stuff {
 		margin: 1rem auto;
 	}
+    .footer-col {
+        width: 25%;
+        margin-bottom: 30px;
+        padding: 0;
+    }
+
+    header,
+  main {
+      text-align: center;
+      max-width: 100%;
+      margin: auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  h1 {
+    grid-column: 1/3;
+  }
+
+  .navigation {
+    grid-column: 3/5;
+  }
+
+  .events {
+    grid-column: 1/3;
+  }
+
+  .weather {
+    grid-column: 3/5;
+  }
+
+  .spotlights {
+    grid-column: 2/4;
+  }
 }

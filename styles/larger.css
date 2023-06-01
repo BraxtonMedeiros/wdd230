@@ -9,105 +9,97 @@
 		flex: 1 1 100%;
 	}
 
-    header,
-    main {
-        text-align: center;
-        max-width: 100%;
-        margin: auto;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    nav {
-        background-color: #cc9733;
-        margin: 0 auto;
-        max-width: 100%;
-    }
-
-    .lastModified {
-        text-align: right;
-    }
-    
-    header {
-        background-color: #3368cc;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: 1px solid rgba(0, 0, 0, 0.1);
-        font-family: 'Bruno Ace SC', cursive;
-    }
-
-    .card {
-      margin-left: 10%;
-      margin-right: 10%;
-      margin-bottom: 10%;
-    }
-    
-    .card-text {
-      font-size: 16px;
-      line-height: 1.5;
-      margin-bottom: 24px;
-    }
-    
-    .card-image {
-      display: block;
-      max-width: 100%;
-      height: auto;
-      margin-bottom: 16px;
-    }
-    
-    .subtitle {
-      grid-column: 1/3;
-    }
-
-    #learningcard {
-      grid-column: 1/2;
-    }
-
-    #infocard {
-      grid-column: 2/3;
-    }
-
-    #menu {
-      display: none; /* hide hamburger button */
-    }
-  
-    .navList {
-      background-color: #cc9733;
-      margin: 0 auto;
+  header,
+  main {
       text-align: center;
       max-width: 100%;
-    }
+      margin: auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+  nav {
+      background-color: #cc9733;
+      margin: 0 auto;
+      max-width: 100%;
+  }
+  .lastModified {
+      text-align: right;
+  }
   
-    .navList li {
-      display: block;
-      flex: 1 1 100%;
-    }
+  header {
+      background-color: #3368cc;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      font-family: 'Bruno Ace SC', cursive;
+  }
+  .card {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+  }
+  
+  .card-text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+  }
+  
+  .card-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+  }
+  
+  .subtitle {
+    grid-column: 1/3;
+  }
+  #learningcard {
+    grid-column: 1/2;
+  }
+  #infocard {
+    grid-column: 2/3;
+  }
+  #menu {
+    display: none; /* hide hamburger button */
+  }
 
-    .navList a:hover {
-      color: #3368cc;
-      background-color: black;
-    }
-    
-    .stuff {
-      margin: 1rem auto;
-    }
+  .navList {
+    background-color: #cc9733;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 100%;
+  }
 
-    .navigation {
-      flex-direction: row;
-      background-color: black;
-    }
-
-    .herolabel {
-      position: absolute;
-      top: 30px;
-      left: 30px;
-      right: auto;
-      background: radial-gradient(#fff, #4D5B97);
-      border: 1px solid rgba(0,0,0,.75);
-      padding: 1.5rem;
-      box-shadow: 0 0 3rem #fff;
-      opacity: 0.75;
-      /* Buenas */
-    }
-    
+  .navList li {
+    display: block;
+    flex: 1 1 100%;
+  }
+  .navList a:hover {
+    color: #3368cc;
+    background-color: black;
+  }
+  
+  .stuff {
+    margin: 1rem auto;
+  }
+  .navigation {
+    flex-direction: row;
+    background-color: black;
+  }
+  .herolabel {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    right: auto;
+    background: radial-gradient(#fff, #4D5B97);
+    border: 1px solid rgba(0,0,0,.75);
+    padding: 1.5rem;
+    box-shadow: 0 0 3rem #fff;
+    opacity: 0.75;
+    /* Buenas */
+  }
+  
 }
