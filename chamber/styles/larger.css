@@ -74,4 +74,20 @@
   .fair {
     grid-column: 5/7;
   }
+
+  .hover {
+    border-radius: 10px;
+  }
+
+  .hover:hover {
+    box-shadow: 0 0 50px #333;
+  }
+
+  #visitCount {
+    grid-column: 3/5;
+    background-color: #776885;
+    color: white;
+    height: 100px;
+    padding-top: 50px;
+  }
 }

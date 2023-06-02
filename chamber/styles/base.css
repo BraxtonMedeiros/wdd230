@@ -385,3 +385,14 @@ body {
     margin-left: 30px;
 	margin-right: 30px;
   }
+
+  #visitCount {
+	background-color: #73C2BE;
+	display: block;
+	text-align: center;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	border-radius: 25px;
+	font-size: 20px;
+  }
