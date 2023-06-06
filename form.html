@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Braxton Medeiros - WDD 230 - Web Frontend Development</title>
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/larger.css">
+    <link rel="stylesheet" href="./styles/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">  
+    <link rel="icon" href="./images/BM.ico"> 
+    <meta property="og:title" content="Braxton Medeiros">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://spectrumlocalnews.com/hi/hawaii/sports/2022/08/07/kahuku-breaks-in-new-field-with-shutout-of-kamehameha">
+    <meta property="og:url" content="https://braxtonmedeiros.github.io/wdd230/">
+</head>
+<body>
+    <header>
+        <h1 id="name">Braxton Medeiros</h1>
+        <img src="./images/picofme.webp" alt="picture of me" loading="lazy" id="picofme">
+        <button id="menu"></button>
+    </header>
+    <nav class="navList">
+        <ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="./chamber/index.html">Chamber</a></li>
+            <li><a href="./lesson1/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="#">Survey</a></li>
+        </ul>
+    </nav>
+    <div class="hero">
+        <picture>
+          <source srcset="./lesson3/images/hero-small.webp" media="(max-width: 500px)">
+          <source srcset="./lesson3/images/hero-medium.webp" media="(max-width: 1000px)">
+          <img src="./lesson3/images/hero-large.webp" alt="table setting" loading="lazy" width="1500" height="750">
+        </picture>
+        <div class="herolabel">
+			<p>Laie Hawaii Temple</p>
+		</div>
+      </div>
+    <main>
+        <div id="contactUs">
+            <fieldset>
+                <legend>Contact Us</legend>
+                <div id="formmessage"></div>
+                <div class="form-container">
+                    <label for="username" id="userName">Username:</label>
+                    <input type="password" id="username" name="username" pattern="[a-zA-Z -]{8,}" placeholder="At least eight characters long. No numbers." required>
+                </div>
+                <div class="form-container">
+                    <label for="reEnter" id="reenter">Re-Enter Username:</label>
+                    <input type="password" id="reEnter" name="reEnter" pattern=".{8,}" required>
+                </div>
+                <div class="form-container">
+                    <label for="email" id="emailA">Email:</label>
+                    <input type="text" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" placeholder="email@domain.com" title="Please enter a valid email address" required>
+                </div>
+                <div>
+                    <label for="pageRating">Page Rating:</label>
+                    <div id="rangevalue">0</div>
+                    <input type="range" id="pageRating" name="pageRating" min="0" max="10" value="0" step="1" list="rangevalues">
+                    <datalist id="rangevalues">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </datalist>
+                </div>
+                <button type="submit" id="submit">Submit</button>
+            </fieldset>
+        </div>
+        
+    </main>
+    
+    <footer class="updateInfo">
+        <p>&copy;<span id="copyright-year"></span> | Braxton Medeiros | Rexburg, ID</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+      </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/form.js"></script>
+</body>
+</html>

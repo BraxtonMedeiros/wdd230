@@ -1,0 +1,76 @@
+fieldset {
+    margin-bottom: 50px;
+    grid-column: 1/3;
+}
+
+legend {
+    margin-bottom: 20px;
+}
+
+.form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+    margin: 10px;
+}
+
+.form-container label {
+    justify-self: end;
+}
+
+#username {
+    grid-column: 3/4;
+}
+
+#userName {
+    grid-column: 2/3;
+}
+
+#reEnter {
+    grid-column: 3/4;
+}
+
+#reenter {
+    grid-column: 2/3;
+}
+
+#email {
+    grid-column: 3/4;
+}
+
+#emailA {
+    grid-column: 2/3;
+}
+
+#submit {
+    margin: 20px;
+}
+
+#contactUs {
+    display: grid;
+    grid-column: 1/3;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 40px;
+}
+#pageRating {
+	width: 180px;
+	margin-bottom: 0;
+}
+
+#rangevalue {
+	font-size: 2rem;
+	color: navy;
+}
+
+#rangevalues {
+	display: flex;
+	margin: 0 0 0 25px;
+	width: 200px;
+    margin: 0 auto;
+}
+
+#rangevalues option {
+	flex: 1 1 auto;
+}
