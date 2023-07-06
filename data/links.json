@@ -72,6 +72,14 @@
         "week": "Week 5",
         "links": [
           {
+            "url": "https://codepen.io/BraxtonMedeiros/pen/WNYZwYm",
+            "title": "CSS Pseudo-elements"
+          },
+          {
+            "url": "./lesson5/new-ward-members.json",
+            "title": "Working with JSON data"
+          },
+          {
             "url": "./lesson5/prophets.html",
             "title": "Fetch API"
           },
