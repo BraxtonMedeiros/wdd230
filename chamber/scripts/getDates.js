@@ -36,4 +36,3 @@ if (typeof Storage !== "undefined") {
   } else {
     console.log("Sorry, localStorage is not supported in this browser.");
   }
-  
