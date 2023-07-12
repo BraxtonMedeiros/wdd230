@@ -1,0 +1,60 @@
+{
+  "businesses": [
+    {
+      "name": "Blends Barber Shop",
+      "address": "12 W Main St #3, Rexburg, ID 83440",
+      "phone": "2097619367",
+      "website": "https://booksy.com/en-us/160274_blends_barber-shop_134711_merced",
+      "membership": "Gold",
+      "image": "./images/blends.webp"
+    },
+    {
+      "name": "Strobel's Family Dentistry",
+      "address": "59 Professional Plaza, Rexburg, ID 83440",
+      "phone": "2083564400",
+      "website": "https://strobelsfamilydentistry.com/?gclid=CjwKCAjw2K6lBhBXEiwA5RjtCeB2MNQBbRvPLQdcPbXZj3A7Sdn31HY9Nhw6lVbP39ahLZa31t92vRoCALwQAvD_BwE",
+      "membership": "Gold",
+      "image": "./images/strobel.webp"
+    },
+    {
+      "name": "Rexburg Rapids",
+      "address": "50 W 2nd N, Rexburg, ID 83440",
+      "phone": "2083722490",
+      "website": "https://www.rexburg.com/view/water/water%20park%20-%20rexburg%20rapids/",
+      "membership": "Silver",
+      "image": "./images/rapids.webp"
+    },
+    {
+      "name": "0500 MECHANICS",
+      "address": "390 S 5th St W, Rexburg, ID 83440",
+      "phone": "2083560500",
+      "website": "https://www.0500mechanics.com/",
+      "membership": "Bronze",
+      "image": "./images/0500.webp"
+    },
+    {
+      "name": "AlphaGraphics Rexburg",
+      "address": "80 S 2nd St W, Rexburg, ID 83440",
+      "phone": "2083579784",
+      "website": "https://www.alphagraphics.com/us-idaho-rexburg-us643",
+      "membership": "Bronze",
+      "image": "./images/alpha.webp"
+    },
+    {
+      "name": "Sapien Designs SEO digital marketing hub",
+      "address": "50 College Ave Suite 102, Rexburg, ID 83440",
+      "phone": "2089327286",
+      "website": "https://seo.sapiendesigns.com/",
+      "membership": "Bronze",
+      "image": "./images/sapien.webp"
+    },
+    {
+      "name": "Upper Valley Veterinary Clinic",
+      "address": "840 N 2nd E Suite # 1, Rexburg, ID 83440",
+      "phone": "2083564271",
+      "website": "https://www.uppervalleyvet.com/",
+      "membership": "Bronze",
+      "image": "./images/vet.webp"
+    }
+  ]
+}

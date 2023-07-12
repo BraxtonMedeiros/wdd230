@@ -112,3 +112,6 @@
   }
 }
 
+.grid-view .member-card {
+  margin: auto; /* Center the member cards within each grid column */
+}

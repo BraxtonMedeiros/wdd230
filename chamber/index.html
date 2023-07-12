@@ -20,7 +20,7 @@
         <button id="menu"></button>
 	      <ul class="navigation">
 	      	<li><a href="./index.html" title="Home">Home</a></li>
-	      	<li><a href="../lesson1/chamber-site-plan.html" title="Site-Plan">Site Plan</a></li>
+	      	<li><a href="./directory.html" title="Directory">Directory</a></li>
 	      	<li><a href="./join.html" title="Contact">Join!</a></li>
           <li><a href="./discover.html" title="Discover">Discover</a></li>
 	      </ul>
@@ -54,9 +54,11 @@
       <section class="weather">
         <div class="weather-card">
           <h2>Weather</h2>
-          <p>Current weather conditions:</p>
-          <p>Temperature: XX°C</p>
-          <p>Humidity: XX%</p>
+          <p>The current temperature in Rexburg, Idaho is <span id="current-temp"></span></p>
+                <figure>
+                    <img id="weather-icon" src="" alt="">
+                    <figcaption></figcaption>
+                </figure>
         </div>
       </section>
   
@@ -120,5 +122,6 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburger.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>
