@@ -119,9 +119,12 @@
     grid-column: 3/5;
   }
 
+  .menu {
+    grid-column: 1/7;
+  }
+
   #members-container {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    width: 90vw;
+    padding: 20px;
   }
 
   .forecast {
@@ -129,6 +132,67 @@
     justify-content: space-around;
   }
   
+  .member-card {
+    background-color: white;
+    /* display: flex; */
+  }
+
+  .member-title {
+    padding: 20px;
+    justify-content: center;
+  }
+
+  .member-address {
+    padding: 20px;
+    justify-content: center;
+  }
+
+  .member-phone {
+    padding: 20px;
+    justify-content: center;
+  }
+
+  .member-website {
+    padding: 20px;
+    justify-content: center;
+  }
+
+  .grid-view {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    align-items: center;
+  }
+  
+  .grid-view img {
+    max-width: 200px;
+    height: 100px;
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px #333;
+  }
+  
+  .grid-view > * {
+    margin: 0.1rem;
+    padding-top: 8%;
+    width: 350px;
+    height: 300px;
+  }
+
+  .member-card > h2 {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .member-card > p {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .list-view > .member-card{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
 }
 
 
