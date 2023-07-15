@@ -592,3 +592,8 @@ img {
 .member-card {
 	margin: 25px;
 }
+
+#members-container {
+	display: grid;
+	
+}

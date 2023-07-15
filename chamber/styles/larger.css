@@ -58,6 +58,10 @@
     grid-column: 3/5;
   }
 
+  #companyS {
+    grid-column: 3/5;
+  }
+
   /* Styles for discover page */
   .farmer {
     grid-column: 1/3;
@@ -110,8 +114,21 @@
   #thankYou {
     grid-column: 3/5;
   }
+
+  .menu button {
+    grid-column: 3/5;
+  }
+
+  #members-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 90vw;
+  }
+
+  .forecast {
+    display: flex;
+    justify-content: space-around;
+  }
+  
 }
 
-.grid-view .member-card {
-  margin: auto; /* Center the member cards within each grid column */
-}
+
